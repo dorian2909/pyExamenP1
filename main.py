@@ -1,25 +1,23 @@
+print("Este es un print normal")
+#La palabra Type sirve para que phy nos diga el tipo de dato
 
+num1=5
+num2=5
+'''
+si queremos que py no respete o siga las reglas matematicas osea que primero sume y luego pase 
+a lo demas tendriamos que encerrar en parentesis
+'''
+resultado= (num1+num2)*100/2
+numTemp = 123
+print("El resultado es", resultado)
 
+#Py permite que las variables sean cambiantes una misma var puede almacenar diferentes tipos de dato
+numTemp=3**3 #esto es un tres al cubo potencia
 
-
-def imprimeMat(n):
-#valida si pasa por el rango
-    if num > 9 or num < 1:
-        print("no pasa")
-    else:
-        #incrementacion del numero insertado para que llegue a la cantidad x
-        for i in range(num + 1):
-
-            for j in range(1, i + 1):
-                print(i, end="")
-            print("")
-
-        for i in range(num - 1, 0, -1):
-
-            for j in range(i, 0, -1):
-                print(i, end="")
-            print("")
-
-num = int(input("Digite un numero con rango de 1 a 9"))
-imprimeMat(num)
-
+precio=int(input('Digite valor entero'))
+print('El valor del entero es...%d\n\n'%precio)
+x,y=5,6
+print("La suma es...{0}".format(x+y))
+print("La resta es...{0}".format(x-y))
+print("La multiplicacion es...{0}".format(x*y))
+print("La division es...{0}".format(x/y))
